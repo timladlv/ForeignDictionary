@@ -3,7 +3,7 @@ package com.tim.dictionaryservice;
 class CharacterSequencer implements InferenceCharacterSequencer {
 
 	@Override
-	public Inference inferSequenceFromWords(String first, String second) {
+	public Inference inferSequenceFromWords(final String first, final String second) {
 		Inference inference = null;
 		if (first == null || second == null) {
 			throw new IllegalArgumentException("parameters must not be null");

@@ -8,10 +8,6 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.tim.dictionaryservice.DictionaryImpl;
-import com.tim.dictionaryservice.InsufficientTermsException;
-import com.tim.dictionaryservice.MissingWordsException;
-
 public class DictionaryTest {
 	
 	private DictionaryImpl uut;

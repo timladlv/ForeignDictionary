@@ -5,7 +5,7 @@ class CharacterInference implements Inference {
 	private final Character comesBefore;
 	private final Character comesAfter;
 
-	public CharacterInference(Character comesBefore, Character comesAfter) {
+	public CharacterInference(final Character comesBefore, final Character comesAfter) {
 		if (comesBefore.equals(comesAfter)) {
 			throw new IllegalArgumentException("comesBefore and comesAfter must be different");
 		}
